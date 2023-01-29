@@ -1,4 +1,4 @@
-#Checksum
+# Checksum
 - This readme is written as part of the two part assignment to describe the problem, technical requirements, alternate solutions or any other information necessary to understand the design and implementation of the given problem. It contains following sections for each question:
   - Question
   - Requirements
