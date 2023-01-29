@@ -7,8 +7,22 @@
   - Design and Implementation details
   - Edge cases
 - A javadoc is also created for the Checksum java file which gives brief information about the  methods in it. It can be found in Mailchimp/javadoc/com/mailchimp/Checksum.html file
-- To use this for custom test case, you can call the static methods Checksum.checksum() or Checksum.evenlyDivisible() with the file name which contains the table as a parameter
-- The example test cases provided in the document are in thw test set
+- The example test cases provided in the document are in the test set
+
+## Run instructions
+- Install Java 
+- Change directory to the src/com/mailchimp folder
+- Modify the path of the test file in ChecksumMain.java
+- Run the following commands 
+``` 
+  javac -d . Checksum.java
+  javac -d . ChecksumMain.java
+  java com.mailchimp.ChecksumMain
+```
+- Alternatively, you can use JUnit test suite and add your custom files to test the application
+  
+
+
 ## Part 1
 ### Question
 In this problem, you will build an application which calculates the checksum of a data set. The input comes in the form of a table. For each row in the table, determine the difference between the largest value and the smallest value; the checksum is the sum of all those differences.
