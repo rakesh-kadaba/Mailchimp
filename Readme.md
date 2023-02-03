@@ -10,7 +10,7 @@
 - The example test cases provided in the document are in the test set
 
 ## Run instructions
-- ###1st method
+- ### 1st method
   - Install Java 
   - Change directory to the src/com/mailchimp folder
   - Modify the path of the test file in ChecksumMain.java
@@ -20,13 +20,13 @@
     javac -d . ChecksumMain.java
     java com.mailchimp.ChecksumMain
   ```
-- ###2nd method (Beta version)
+- ### 2nd method (Beta version)
   - Install Java
   - Download the jar file Mailchimp.jar (present in jar directory)
   - Run it in the following way:
     - To get checksum:   ``` java -jar Mailchimp.jar checksum {file_which_contains_the_data} ```
     - To get evenly divisible sum:   ```  java -jar Mailchimp.jar evenlyDivisible {file_which_contains_the_data}   ```
-- ###3rd method
+- ### 3rd method
   - You can use JUnit test suite and add your custom files to test the application
   
 
